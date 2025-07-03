@@ -1,0 +1,5 @@
+# ignoram fisierele binare
+*.o
+*.bin
+*.elf
+*.elf64
