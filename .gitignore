@@ -3,3 +3,7 @@
 *.bin
 *.elf
 *.elf64
+
+# potental copyright issues
+docs/pdf
+docs/html
