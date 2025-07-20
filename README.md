@@ -11,21 +11,3 @@ At one point it will contain a functioning operating system as my Bachelor's the
 | rustup   | 1.27.1   |
 | rustc    | 1.88.0   |
 | cargo    | 1.88.0   |
-
-## Instructions
-
-Useful toolchain and firmware compilation instructions
-
-### Obtain the code
-
-```sh
-git clone --recurse-submodules <link-to-this-repo>
-```
-
-### How to compile OpenSBI
-
-```sh
-cd opensbi
-git checkout tags/v1.7
-make ARCH=riscv CROSS_COMPILE=riscv64-linux-gnu- PLATFORM=generic
-```
